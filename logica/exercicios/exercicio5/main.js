@@ -25,7 +25,7 @@ function calcula() {
     return
   }
 
-  let porcentagemComissao = 0.15;
+  let porcentagemComissao = 15;
   salarioFixo = parseFloat(salarioFixo)
   totalVendas = parseFloat(totalVendas)
 
