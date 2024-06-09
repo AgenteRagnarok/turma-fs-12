@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    {
+      "id": "123",
+      "nome": "Eduardo",
+      "idade": 21,
+      "email": "edu@email.com"
+    },
+    {
+      "id": "124",
+      "nome": "Belarmino",
+      "idade": 22,
+      "email": "belinho@email.com"
+    }
+  ],
+  "carros": [
+    {
+      "id": "132",
+      "placa": "XYZ-1234",
+      "cor": "PRATA",
+      "modelo": "UNO WAY"
+    },
+    {
+      "id": "133",
+      "placa": "ABC-1234",
+      "cor": "PRATA",
+      "modelo": "HB20S"
+    }
+  ]
+}
