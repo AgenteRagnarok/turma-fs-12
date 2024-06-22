@@ -1,3 +1,5 @@
+import {Button} from "react-bootstrap";
+
 type Usuario = {
   id: number;
   nome: string;
@@ -25,7 +27,11 @@ function Tabela(props: TabelaProps) {
             <td>{usuario.id}</td>
             <td>{usuario.nome}</td>
             <td>{usuario.email}</td>
-            <td>botoes</td>
+            <td>
+              <Button variant="primary">Editar</Button>
+              &nbsp;
+              <Button variant="danger">Excluir</Button>
+            </td>
           </tr>
         ))}
       </tbody>

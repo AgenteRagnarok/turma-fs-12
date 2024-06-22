@@ -5,4 +5,4 @@ const Usuarios = async () => {
     return response.data;
 };
 
-export default usuariosService;
+export default Usuarios;
